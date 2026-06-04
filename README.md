@@ -21,3 +21,7 @@
 2. 修改 Jenkinsfile 中的 Docker Hub 用户名
 3. 在 Jenkins 中创建 Pipeline 任务并关联此仓库
 4. 构建或推送代码触发自动部署
+
+
+## 更新说明
+1. 6月新增了Nginx端口转发，现在浏览器直接输入域名就能访问Jenkins了。
