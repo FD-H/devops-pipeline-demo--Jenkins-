@@ -14,9 +14,9 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo '从GitHub拉取代码...'
-                git url: 'https://github.com/FD-H/devops-pipeline-demo--Jenkins-.git',
+                git url: 'git@github.com:FD-H/devops-pipeline-demo--Jenkins-.git',
                     branch: 'main',
-                    credentialsId: 'github-cred'
+                    credentialsId: 'github-ssh'
             }
         }
         
